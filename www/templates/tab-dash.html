@@ -1,0 +1,34 @@
+<ion-view view-title="Insurence co/Corporate year">
+<ion-nav-buttons side="primary">
+      <!-- <button class="button" ng-click="doSomething ()">-->
+        <i class="button button-icon icon ion-android-more-vertical" ng-click="openPopover($event)"></i>
+      <!-- </button> -->
+    </ion-nav-buttons>
+  <ion-content class="padding">
+  	<div class="dash-block" style="background-color: #17B6A4;">
+  		<div class="widget widget-stats bg-green" style="margin-left: 10px;">
+			            <div class="stats-icon stats-icon-lg"><i class="fa fa-globe fa-fw"></i></div>
+			            <div class="stats-title">Claims settled</div>
+			            <div class="stats-number">50%</div>
+			            <div class="stats-progress progress">
+                            <div style="width: 50%;" class="progress-bar"></div>
+                        </div>
+                        <div class="stats-desc">500 Claims; 600 Insured</div>
+			        </div>
+  	</div> 
+
+  	<div class="dash-block" style="background-color: #2184DA;">
+    		<div class="widget widget-stats bg-green" style="margin-left: 10px;">
+			            <div class="stats-icon stats-icon-lg"><i class="fa fa-globe fa-fw"></i></div>
+			            <div class="stats-title">Settled amount</div>
+			            <div class="stats-number">₹50,000</div>
+			            <div class="stats-progress progress">
+                            <div style="width: 33%;" class="progress-bar"></div>
+                        </div>
+                        <div class="stats-desc">Out of ₹150,000 - 33%</div>
+			        </div>
+  	</div>
+  	
+    <div id="chart" ></div>
+  </ion-content>
+</ion-view>
